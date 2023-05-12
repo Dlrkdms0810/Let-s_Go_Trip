@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html>
+
+<!--머릿글-->
+
+<head>
+	<title>Let's Go Trip!</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/plusCSS.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+
+	<!--메인 사진-->
+	<style>
+		.background {
+			background-image: url("images/mainTextPicture/Seoul_main.jpg");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-size: 100% 17%;
+		}
+	</style>
+</head>
+
+<!--본문-->
+
+<body class="is-preload, background">
+
+	<!--세부 내용-->
+	<div id="wrapper">
+
+		<!--상단바-->
+		<div>
+			<nav>
+				<ul>
+					<li><a href="#info">정보</a></li>
+					<li><a href="#weather">기후</a></li>
+					<li><a href="#search">Editor pick</a></li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- 상단 지역 표기 -->
+		<center>
+
+			<!--로고, 지역 표기-->
+			<header id="header">
+				<div class="inner">
+
+					<br>
+
+					<a href="main.html" class="logo">
+						<span class="symbol"><img src="images/Symbols/img_seoullogo.png" width=100% height=20%
+								alt="" /></span>
+						<span class="title" style="color:white">Seoul</span>
+					</a>
+				</div>
+			</header>
+
+			<!--지역 지도-->
+			<div id="main">
+				<div class="inner">
+					<h1 style="color:white">서울</h1>
+					<br><br><br><br><br><br>
+					<a id="info" name="info"></a>
+					<span class="image main"><img src="images/map/seoul.png" alt="서울 지역 지도" /></span>
+				</div>
+			</div>
+
+		</center>
+
+
+
+		<!--중앙-->
+		<!--첫번째 내용-->
+		<div class="firstBlock" style="float:left;">
+			<img src="./mainPicture/06O01106Ba82000.jpg" width="300px" height="300px" >
+
+			<div class="divStyle">
+				내용 입력
+			</div>
+
+			<form class="formStyle" action="http://google.com" target="_blank">
+				<input type="submit" name="site" value="사이트 접속">
+			</form>
+		</div>
+
+		<!--두번째 내용-->
+		<div class="secondBlock">
+			<img src="./mainPicture/06O01106Ba82000.jpg" width="300px" height="300px">
+
+			<div class="divStyle">
+				내용 입력
+			</div>
+
+			<form class="formStyle" action="http://google.com" target="_blank">
+				<input type="submit" name="site" value="사이트 접속">
+			</form>
+
+		</div>
+
+		<!--세번째 내용-->
+		<div class="thirdBlock" style="float: left;">
+			<img src="./mainPicture/06O01106Ba82000.jpg" width="300px" height="300px">
+
+			<div class="divStyle">
+				내용 입력
+			</div>
+
+			<form class="formStyle" action="http://google.com" target="_blank">
+				<input type="submit" name="site" value="사이트 접속">
+			</form>
+		</div>
+
+		<!--네번째 내용-->
+		<div class="fourthBlock" style="float:none;">
+			<img src="./mainPicture/06O01106Ba82000.jpg" width="300px" height="300px">
+
+			<div class="divStyle">
+				내용 입력
+			</div>
+
+			<form class="formStyle" action="http://google.com" target="_blank">
+				<input type="submit" name="site" value="사이트 접속">
+			</form>
+		</div>
+
+
+
+		<center>
+			<!--기후 정보-->
+			<a id="weather" name="weather"></a>
+			<div id="main">
+				<br><br><br><br>
+
+				<div class="inner">
+					<h1>평균 기후</h1>
+					<p>날씨 API</p>
+				</div>
+
+			</div>
+
+			<!--검색-->
+			<a id="search" name="search"></a>
+
+			<div id="main">
+
+				<div class="inner">
+					<h1>Editor's Pick!</h1>
+
+					<form action="" method="post">
+						<input type="text" placeholder="지역을 입력하면 에디터가 추천해드릴게요!" style="text-align:center;"
+							name="SeoulTrable"><br>
+						<button type="submit">검색하기</button>
+					</form>
+
+				</div>
+
+			</div>
+
+
+
+			<!--푸터-->
+			<footer class="footer">
+				<div class="inner">
+					<br>
+					<section>
+						<h2>Let's Go Trip</h2>
+					</section>
+
+					<section>
+						<h3>2023 Java Project</h3>
+						<p>Seoul</p>
+					</section>
+				</div>
+
+			</footer>
+
+		</center>
+
+	</div>
+
+	<!-- 스크립트 -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
